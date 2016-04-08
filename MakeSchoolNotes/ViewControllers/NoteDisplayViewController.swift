@@ -51,7 +51,7 @@ class NoteDisplayViewController: UIViewController {
                 let ream = try Realm()
                 
                 try ream.write(){
-                    if(note.title != self.titleTextField || note.content != self.contentTextView.text ) //note ในฐานข้อมูลเดิม มันไม่ตรงกับที่อยู่ใน textfield คือมันเกิดการเปลี่ยนแปลงขึ้น
+                    if(note.title != self.titleTextField.text || note.content != self.contentTextView.text ) //note ในฐานข้อมูลเดิม มันไม่ตรงกับที่อยู่ใน textfield คือมันเกิดการเปลี่ยนแปลงขึ้น
                     {
                         note.title = self.titleTextField.text!
                         note.content = self.contentTextView.text
