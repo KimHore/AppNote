@@ -24,6 +24,13 @@ class NotesViewController: UITableViewController {
     super.viewDidLoad()
     tableView.dataSource = self //ให้มันเก็บข้อมูลของตัวเองไว้
     tableView.delegate = self
+    do{
+        let realm = try Realm()
+        notes = realm.objects(Note).sorted("modificationDate", ascending: false)
+        
+    } catch {
+        print("Handle Error")
+    }
     }
     
     override func viewWillAppear(animated: Bool) {
