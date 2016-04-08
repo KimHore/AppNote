@@ -1,21 +1,28 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AD973A403AA120D84C13DA340F4D79477029FFEF",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "80E26889C2F0B0A1AD7B409DDEBCF938B2D38103",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "AD973A403AA120D84C13DA340F4D79477029FFEF" : 0,
-    "BA499833F80BBA4EA3625B4BFBBF6919E08C7155" : 0
+    "BA499833F80BBA4EA3625B4BFBBF6919E08C7155" : 0,
+    "80E26889C2F0B0A1AD7B409DDEBCF938B2D38103" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5BA5FACB-4B16-4C2A-9635-BA5DE4017AE9",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "AD973A403AA120D84C13DA340F4D79477029FFEF" : "MakeSchoolNotes-Swift-Project",
-    "BA499833F80BBA4EA3625B4BFBBF6919E08C7155" : "MakeSchoolNotes-Swift-Project\/Frameworks\/ConvenienceKit\/"
+    "BA499833F80BBA4EA3625B4BFBBF6919E08C7155" : "MakeSchoolNotes-Swift-Project\/Frameworks\/ConvenienceKit\/",
+    "80E26889C2F0B0A1AD7B409DDEBCF938B2D38103" : "AppNote\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "MakeSchoolNotes",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MakeSchoolNotes.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KimHore\/AppNote.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "80E26889C2F0B0A1AD7B409DDEBCF938B2D38103"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/orcudy\/MakeSchoolNotes-Swift-Project.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
